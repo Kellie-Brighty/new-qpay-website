@@ -16,6 +16,9 @@ module.exports = {
         white: "#F9F9F9",
       },
     },
+    letterSpacing: {
+      widest: ".50em",
+    },
   },
   plugins: [],
 };

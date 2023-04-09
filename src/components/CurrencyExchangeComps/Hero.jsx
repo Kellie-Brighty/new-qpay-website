@@ -1,6 +1,5 @@
 import React from "react";
 import SVG from "../../svgs/svg_one.svg";
-import Illust from "../../assets/home-hero-illust.png";
 import Buttons from "../Buttons";
 
 const Hero = () => {
@@ -35,7 +34,9 @@ const Hero = () => {
           style={utmostOverlay}
         >
           <div className={`mt-[200px] px-[80px]`}>
-            <p className={`text-[18px] font-semibold`}>CURRENCY EXCHANGE</p>
+            <p className={`text-[18px] font-semibold tracking-widest`}>
+              CURRENCY EXCHANGE
+            </p>
             <p className={`text-[42px] font-semibold`}>
               Better rates for every currency exchange
             </p>
