@@ -1,6 +1,6 @@
 import React from "react";
 import SVG from "../../svgs/svg_one.svg";
-import Buttons from "../Buttons";
+import QuestionMark from "../../assets/question-mark.png";
 
 const Hero = () => {
   const backgroundStyle = {
@@ -33,20 +33,21 @@ const Hero = () => {
           className={`absolute top-0 left-0 h-[100%] w-[100%] text-white`}
           style={utmostOverlay}
         >
-          <div className={`mt-[200px] px-[80px]`}>
-            <p className={`text-[18px] font-semibold tracking-widest`}>
-              CURRENCY EXCHANGE
-            </p>
-            <p className={`text-[42px] font-semibold`}>
-              Better rates for every currency exchange
-            </p>
-            <p className={`text-[22px] font-normal mt-[20px]`}>
-              Convert your foreign funds (USD, EUR & GBP) within the app at
-              better market rates in minutes.
-            </p>
+          <div
+            className={`mt-[200px] px-[80px] flex items-center space-x-[200px]`}
+          >
+            <div className={`w-[700px]`}>
+              <p className={`text-[42px] font-semibold`}>
+                Frequently Asked Questions
+              </p>
+              <p className={`text-[22px] font-normal mt-[20px]`}>
+                You’ve got questions? Here are some answers and advice from the
+                QPay Team
+              </p>
+            </div>
 
-            <div className={`mt-[40px]`}>
-              <Buttons />
+            <div>
+              <img src={QuestionMark} alt="" className={`w-[192px]`} />
             </div>
           </div>
         </div>

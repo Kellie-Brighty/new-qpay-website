@@ -35,10 +35,10 @@ const Hero = () => {
         >
           <div className={`mt-[200px] px-[80px]`}>
             <p className={`text-[18px] font-semibold tracking-widest`}>
-              CURRENCY EXCHANGE
+              VIRTUAL ACCOUNTS
             </p>
             <p className={`text-[42px] font-semibold`}>
-              Better rates for every currency exchange
+              Welcome to a word of limitless financial control
             </p>
             <p className={`text-[22px] font-normal mt-[20px]`}>
               Convert your foreign funds (USD, EUR & GBP) within the app at
