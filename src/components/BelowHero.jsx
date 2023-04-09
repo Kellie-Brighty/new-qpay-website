@@ -121,11 +121,51 @@ const BelowHero = ({ image, page }) => {
     );
   };
 
+  const VirtualCurrencyPage = () => {
+    return (
+      <div className={`flex items-center w-full justify-between space-x-5`}>
+        <img src={image} alt="" className={`md:w-[517px] md:h-[800px]`} />
+
+        <div className={`md:w-[610px]`}>
+          <div>
+            <p className={`text-[32px] font-semibold`}>
+              Make money move across borders
+            </p>
+            <p className={`text-blog_text text-[18px] font-normal`}>
+              Create a personal foreign virtual accounts for USD, EUR and GBP
+              payments.
+            </p>
+          </div>
+
+          <div className={`mt-[80px]`}>
+            <p className={`text-[30px] font-semibold text-subtext`}>
+              Make seamless transactions with virtual cards
+            </p>
+            <p className={`text-blog_text text-[18px] font-normal`}>
+              Shop online, pay your international bills with ease.
+            </p>
+          </div>
+
+          <div className={`mt-[80px]`}>
+            <p className={`text-[30px] font-semibold text-subtext`}>
+              Get the freedom to switch between currencies
+            </p>
+            <p className={`text-blog_text text-[18px] font-normal`}>
+              With Qpay’s multicurrency wallet there’s no limit to spending .
+              Just Swipe!
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className={`py-[91px] px-[80px]`}>
       {page === "Home" && <HomePage />}
       {page === "MoneyTransfer" && <MoneyTransferPage />}
       {page === "CurrencyExchange" && <CurrencyExchangePage />}
+      {page === "VirtualAccounts" && <VirtualCurrencyPage />}
     </div>
   );
 };
